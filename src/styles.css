@@ -3,22 +3,21 @@ body {
   background: #272044;
 }
 
-
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .grid {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
 
 section {
-  max-width:1200px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 header {
@@ -42,7 +41,7 @@ header h2 {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.5;
-  margin:0;
+  margin: 0;
 }
 
 header h3 {
@@ -50,46 +49,74 @@ header h3 {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
-  margin:0;
+  margin: 0;
 }
 
 header a {
-font-size: 14px;
-font-weight: 700;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 3px;
-text-transform: uppercase;
-background: white;
-text-decoration: none;
-color: #272044;
-padding: 16px 32px;
-margin-top: 32px;
-display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
 }
 
+main {
+  background-color: white;
+}
 
+main h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  color: #272044;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+main p {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
 
 footer {
-  color:white;
-  background-image: linear-gradient(rgba(39,32,68,0.8),
-  rgba(39,38,62,0.8)),
-  url("../images/paris-footer.jpg");
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 38, 62, 0.8)
+    ),
+    url("../images/paris-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 
-footer h3{
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 footer p {
   font-weight: 400;
   font-size: 16px;
-  line-height:24px;
+  line-height: 24px;
   opacity: 0.7;
 }
 
@@ -104,7 +131,7 @@ footer li {
 }
 
 footer a {
-  color:white;
+  color: white;
   opacity: 0.7;
 }
 
@@ -125,4 +152,3 @@ footer a {
     font-size: 12px;
   }
 }
-
