@@ -14,9 +14,7 @@ body {
 }
 
 .img-responsive {
-  max-width:185px;
-  max-height: 185px;
-  display: block;
+  max-width:100%;
 
 }
 
